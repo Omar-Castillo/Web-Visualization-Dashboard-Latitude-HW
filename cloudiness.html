@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Required meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+        <title>Omar's Weather Dashboard</title>
+        <!--CSS link-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+            <a href="oc_website.html" class="navbar-brand">Latitude</a>
+            <button class="navbar-toggler" data-toggle="collapse" 
+            data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="PlotMenu" data-toggle="dropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">Plots
+                        <span class="caret"></span>
+                         </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a href="max_temperatures.html">Max Temperature</a> 
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="humidity.html">Humidity</a> 
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="cloudiness.html">Cloudiness</a> 
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="wind_speed.html">Wind Speed</a> 
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="comparison.html" class="nav-link">Comparison</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="weather_data.html" class="nav-link">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <!--Cloudiness-->
+                <div class="col-lg-7">
+                    <div class="box">
+                        <h1>Cloudiness </h1> 
+                        <hr>
+                        <img src="Resources/assets/images/Fig3.png"  alt="Cloudiness vs.Lat"/></img>
+                        <p>
+                            There is no strong relationship between latitude and cloudiness. 
+                            However, it is interesting to see that a strong band of cities sits at 0, 80, and 100% cloudiness.
+                        </p>
+                    </div>
+                    
+                </div>
+
+                <!--Visualizations Column-->
+                <div class="col-lg-5">
+                    <div class="box">
+                        <h2>Visualizations</h2>
+                        <hr>
+                        <div class="container">
+                            <div class="row">
+                                <div class = "col">
+                                    <a href="max_temperatures.html"
+                                    ><img class="panel" src="Resources/assets/images/Fig1.png" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class = "col">
+                                    <a href="humidity.html"
+                                    ><img class="panel" src="Resources/assets/images/Fig2.png" style="width:100%" >
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class = "col">
+                                    <a href="cloudiness.html"
+                                    ><img class="panel" src="Resources/assets/images/Fig3.png" style="width:100%" >
+                                    </a>
+                                </div>
+                                <div class = "col">
+                                    <a href="wind_speed.html"
+                                    ><img class="panel" src="Resources/assets/images/Fig4.png" style="width:100%" >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Create a footer for our webpage-->
+        <footer>
+            <div class="Footer">Copyright Omar Castillo @Rice Data Bootcamp</div>
+        </footer>
+    
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
+    </body>
+</html>
