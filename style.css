@@ -44,6 +44,7 @@ p{
     margin-left:20px;
 }
 
+
 /* highlight images with border */
 .panel:hover{
     border-color:teal;
@@ -82,6 +83,7 @@ footer {
 
 .table{
     text-align:center;
+    background-color:white;
 }
 
 #DataBox.box {
