@@ -1,4 +1,3 @@
-Omar-Castillo.github.io/Web-Visualization-Dashboard-Latitude-HW
 # Unit 12 | Assignment - Web Visualization Dashboard (Latitude)
 
 ## Background
