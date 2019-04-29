@@ -13,6 +13,21 @@ body {
     
 }
 
+.dropdown-item{
+    color: darkslategrey !important; 
+}
+
+/* dropdown links */
+a{
+    color: darkslategrey;
+    font-size: 15px; 
+}
+
+/* Paragraph Text */
+p{
+    color:darkslategrey;
+}
+
 /* Titles */
 .Title{
     color: teal;
@@ -27,6 +42,20 @@ body {
 .container {
     padding-top:40px;
     margin-left:20px;
+}
+
+/* highlight images with border */
+.panel:hover{
+    border-color:teal;
+    border-style: solid; 
+    
+}
+
+/* highlight SELECTED image with border */
+.panel-stick{
+    border-color:teal;
+    border-style: solid; 
+    
 }
 
 .box {
